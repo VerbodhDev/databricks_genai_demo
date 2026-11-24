@@ -4,8 +4,6 @@
 
 """Databricks LangGraph ResponsesAgent Implementation"""
 
-%pip install databricks-langchain langgraph==1.2.24 langgraph-prebuilt==1.1.3 langgraph-sdk==0.4.14
-
 import json
 from typing import Annotated, Any, Generator, Optional, Sequence, TypedDict, Union
 from uuid import uuid4
